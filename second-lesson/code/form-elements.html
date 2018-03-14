@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	p {
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	
+	p label {
+		font-weight: normal;
+	}
+</style>
+<form>
+
+	<p>Radio buttons:<br>
+	  <input type="radio" name="gender" value="male" checked id="male"><label for="male">Male</label><br>
+	  <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label><br>
+	</p>
+	<p>Checkboxes:<br>
+	  <input type="checkbox" name="vehicle1" value="Bike" id="vehicle1"><label for="vehicle1"> I have a bike</label><br>
+	  <input type="checkbox" name="vehicle2" value="Car" id="vehicle2"><label for="vehicle2"> I have a car</label><br>  
+	</p>	
+	<p>User password:<br>
+		<input type="password" name="psw">
+	</p>
+	<p>Telephone:<br/>
+		<input type="tel" name="usrtel">
+	</p>
+	<p>Quantity (between 1 and 5):<br/>
+		<input type="number" name="quantity" min="1" max="5">
+	</p>
+	<p>E-mail:<br/>
+		<input type="email" name="email">
+	</p>
+	<p>Date:<br/>
+		<input type="date" name="bday" min="2000-01-01">
+	</p>
+	<p>Range:<br/>
+		<input type="range" name="points" min="0" max="10">
+	</p>	
+	<p>Select your favorite color:<br/>
+		<input type="color" name="favcolor" value="#ff0000">
+	</p>	
+	<input type="submit"> 
+</form>
+
+<br><br><hr><br><br>
+
+<video width="400" controls>
+  <source src="video/mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+
+</body>
+</html>
