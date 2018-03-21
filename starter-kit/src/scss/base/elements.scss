@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+/* stylelint-disable selector-max-universal  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* stylelint-enable selector-max-universal */
+
+html {
+
+}
+
+body {
+  //background: $main-bg;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+object,
+input,
+textarea {
+  vertical-align: middle;
+  max-width: 100%;
+}
