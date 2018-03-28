@@ -1,0 +1,85 @@
+
+*******************
+Card Rotating
+-------------------
+CARD Y ROTATION Changing from 0° to 180° in 0.5 seconds, Ease Out
+xxxxxxxxxxxxxxxxxxx
+
+*******************
+Accordion
+-------------------
+OPENING:
+Arrow Rotating
+ARROW ROTATION Rotating from 0° to 180° in 0.5 seconds, Ease Out
+Accordion Content Fade In
+CONTENT OPACITY Changing from 0% to 100% in 0.5 seconds, Ease Out
+
+CLOSING:
+Arrow Rotating
+ARROW ROTATION Rotating from 180° to 0° in 0.5 seconds, Ease Out
+Accordion Content Fade Out
+CONTENT OPACITY Changing from 0% to 100% in 0.5 seconds, Ease Out
+xxxxxxxxxxxxxxxxxxx
+
+*******************
+Text Inputs
+-------------------
+Title Fade in
+TITLE OPACITY Changing from 0% to 100% in 0.5 seconds, Ease Out
+TITLE Y POSITION Moving of 10 Pixels in 0,5 seconds, Ease Out
+
+Cursor
+CURSOR OPACITY Switching every 0,5 seconds
+xxxxxxxxxxxxxxxxxxx
+
+*******************
+CTAs
+-------------------
+Hover
+SHADOW OPACITY Changing from 0% to 100% in 0.3 seconds, Ease Out
+
+OnClick
+CHANGE COLOR Changing from Color A to Color B in 0.3 seconds, Ease Out
+xxxxxxxxxxxxxxxxxxx
+
+*******************
+Dropdown
+-------------------
+Arrows Fading
+ARROWS OPACITY Changing from 0% to 100% in 0.3 seconds, Ease Out
+Content Moving
+CONTENT POSITION Changing in 1 second, Ease Out
+CONTENT OPACITY Changing from 0% to 100% in 1 second, Ease Out
+xxxxxxxxxxxxxxxxxxx
+
+*******************
+Menu
+-------------------
+Menu Navigation
+MENU Y POSITION Changing in 0.5 seconds, Ease Out
+xxxxxxxxxxxxxxxxxxx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
