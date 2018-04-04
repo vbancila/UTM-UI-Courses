@@ -1,0 +1,53 @@
+/*Theme*/
+@mixin text-inset($colour, $opacity: 0.7) {
+
+  @if lightness($colour) < 50% {
+    // if the text colour is a dark colour
+    // we need a white shadow, bottom, right
+    text-shadow: 1px 1px 1px rgba(#fff, $opacity);
+  } @else {
+    // it's not dark, so it must be light so we
+    // need a black shadow, top, left
+    text-shadow: -1px -1px 1px rgba(#000, $opacity);
+  }
+
+  // set the text colour
+  color: $colour;
+
+}
+
+body {
+  background-color: #999;
+  padding: 2em;
+}
+
+%inset {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.inset-one {
+  @extend %inset;
+  @include text-inset(#fff, 0.3);
+}
+
+.inset-two {
+  @extend %inset;
+  @include text-inset(#000, 0.3);
+}
+
+/*FOR*/
+$columns: 4;
+$colors: red green blue yellow;
+
+@for $i from 1 through $columns {
+  .cols-#{$i} {
+    width: ((100 / $columns) * $i) * 1%;
+  }
+}
+
+@each $color in $colors {
+  .cols-#{$color} {
+    background-color: #{$color};
+  }
+}
